@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'NeonLedLight';
+    src: url('/font/NEONLEDLight.otf');
+}
+
+body {
+    background: black;
+    background-image: url('/Assets/Backgroundnew.png');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+#background-image {
+    display: none;
+}
+
+.main {
+    padding:20px;
+    margin-top:50px;
+}
+
+.divGame {
+    text-align: center;
+}
+
+.gamefield {
+    margin-top: -122px;
+} 
+
+/* .canvasGameStatus {
+    position: absolute;
+    z-index: 2;
+} */
+
+.canvasScore {
+    position: absolute;
+    top: 23%;
+    left: 80%;
+}
+
+.canvasHighscore {
+    position: absolute;
+    top: 88.5%;
+    left: 48%;
+}
+
+.canvasHitPoints {
+    position: absolute;
+    top: 6%;
+    left: 75%;
+}
+
+#start {
+    background-color: black;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 30.2%;
+    left: 40.9%;
+}
+
+#restart {
+    background-color: transparent;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    border: none;
+    display: none;
+
+}
+#restart img {
+    width: 80px;
+    height: 90px;
+}
+
+
+#start img {
+    width: 400px;
+    height: 150px;
+}

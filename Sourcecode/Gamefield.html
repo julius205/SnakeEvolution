@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation-->
+<nav>
+    
+
+</nav>
+<!-- Main Content /Spielfeld-->
+<main class="main">
+    <img src="/Assets/kirscheRot.png" id="pickUp-image" alt="Snake image" style= "display:none">
+    <img src="/Assets/kirsche.png" id="pickUpGolden-image" alt="Snake image" style= "display:none">
+    <img src="/Assets/snake_lila_head.png" id="snakeHeadUp-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/snakehead_right.png" id="snakeHeadRight-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/snakehead_left.png" id="snakeHeadLeft-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/snakehead_down.png" id="snakeHeadDown-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/second_part.png" id="snakeBody-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/middle_part_horizontal.png" id="snakeBodyHorizontal-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/CornerTR.png" id="bodyCornerTR-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/CornerTL.png" id="bodyCornerTL-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/CornerBR.png" id="bodyCornerBR-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/CornerBL.png" id="bodyCornerBL-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/end_up.png" id="tailUp-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/end_right.png" id="tailRight-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/end_down.png" id="tailDown-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/end_left.png" id="tailLeft-image" alt="Snake Image" style="display:none">
+    <img src="/Assets/obstacleFireImage.png" id="obstacleFire-image" alt="Obstacle Image" style="display:none">
+    <img src="/Assets/blitz.png" id="powerUpFlash-image" alt="PowerUp Image" style="display:none">
+    <img src="/Assets/heart.png" id="hitPointHeart-image" alt="Hitpoint Image" style="display:none">
+    <img src="/Assets/pauseImage.png" id="pause-image" alt="Pause Image" style="display: none">
+
+
+
+    
+    <img src="/Assets/snakeBackground.png" id="background-image" alt="Snake Background">
+
+    <audio>
+        <source src="/Audio/startButtonSound.mp3" id="startAudio">
+    </audio>
+
+    <button type="button" id="start">
+        <img src="/Assets/image.png" alt="buttonpng"/>
+    </button>
+    <button type="button" id="restart">
+        <img src="/Assets/restartZugeschnitten.png" alt="buttonpng"/>
+    </button>
+
+    <canvas id="background">
+        Fallback Content
+    </canvas>
+
+    <div class="divGame">
+        <canvas id="gamefield" class="gamefield">
+            Fallback Content
+        </canvas>
+        <!-- <canvas id="canvasGameStatus" class="canvasGameStatus">
+            Fallback Content
+        </canvas> -->
+    </div>
+
+    <canvas id="canvasScore" class="canvasScore">
+        Fallback Content
+    </canvas>
+    <canvas id="canvasHighscore" class="canvasHighscore">
+        Fallback Content
+    </canvas>
+    <canvas id="canvasHitPoints" class="canvasHitPoints">
+        Fallback Content
+    </canvas>
+
+
+</main>
+<!-- <script src="test.js"></script> -->
+<script src="/Sourcecode/Models/PickUpModel.js"></script>
+<script src="/Sourcecode/Models/snakepart.js"></script>
+<script src="/Sourcecode/Models/SnakeModel.js"></script>
+<script src="/Sourcecode/Views/SnakeView.js"></script>
+<script src="/Sourcecode/Controller/SnakeController.js"></script>
+<script src="/Sourcecode/Controller/GamefieldController.js"></script>
+<script src="/Sourcecode/Models/GamefieldModel.js"></script>
+<script src="/Sourcecode/Views/GamefieldView.js"></script>
+<script src="/Sourcecode/Views/PickUpView.js"></script>
+<script src="/Sourcecode/Models/PickUpList.js"></script>
+<script src="/Sourcecode/Models/ScoreModel.js"></script>
+<script src="/Sourcecode/Views/ScoreView.js"></script>
+<script src="/Sourcecode/Models/ObstacleModel.js"></script>
+<script src="/Sourcecode/Models/ObstacleList.js"></script>
+<script src="/Sourcecode/Views/ObstacleView.js"></script>
+<script src="/Sourcecode/Models/GameStatus.js"></script>
+<script src="/Sourcecode/Views/HitPointView.js"></script>
+<script src="/Sourcecode/Models/PowerUpModel.js"></script>
+<script src="/Sourcecode/Models/PowerUpList.js"></script>
+<script src="/Sourcecode/Views/PowerUpView.js"></script>
+<script src="/Sourcecode/Controller/GameEngine.js"></script>
+</body>
+</html>
