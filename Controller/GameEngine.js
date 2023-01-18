@@ -5,7 +5,7 @@ var canvasHighscore = document.getElementById("canvasHighscore");
 var canvasGameStatus = document.getElementById("canvasGameStatus");
 var startButton = document.getElementById("start");
 var restartButton = document.getElementById("restart");
-var startAudio = new Audio("/Audio/startButtonSound.mp3");
+var startAudio = new Audio("Audio/startButtonSound.mp3");
 
 
 canvasScore.height = 100;
