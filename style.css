@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'NeonLedLight';
-    src: url('/font/NEONLEDLight.otf');
+    src: url('font/NEONLEDLight.otf');
 }
 
 body {
     background: black;
-    background-image: url('/Assets/Backgroundnew.png');
+    background-image: url('Assets/Backgroundnew.png');
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
@@ -28,7 +28,7 @@ body {
 
 .gamefield {
     margin-top: -122px;
-} 
+}
 
 /* .canvasGameStatus {
     position: absolute;
